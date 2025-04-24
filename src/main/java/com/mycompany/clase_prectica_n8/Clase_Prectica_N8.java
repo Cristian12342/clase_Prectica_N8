@@ -20,6 +20,8 @@ public class Clase_Prectica_N8 {
         float promedio = 0;
         int diaMayorPuntaje = 0;
         int diaMenorPuntaje = 0;
+        float totalPuntosPrimeros4Dias = 0;
+        float totalPuntosUltimos4Dias = 0;
         int opcion = 0;
 
         System.out.println("------------------------------------------------");
@@ -105,8 +107,7 @@ public class Clase_Prectica_N8 {
                     break;
 
                 case 4:
-                    float totalPuntosPrimeros4Dias = 0;
-                    float totalPuntosUltimos4Dias = 0;
+                    
                     for (int i = 0; i < 4; i++) {
                         totalPuntosPrimeros4Dias += puntuacion[i];
                     }
